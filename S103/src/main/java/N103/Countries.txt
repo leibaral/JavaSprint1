@@ -1,0 +1,10 @@
+UK London
+Italy Rome
+France Paris
+Germany Berlin
+Greece Athens
+Hungary Budapest
+Portugal Lisbon
+Spain Madrid
+Norway Oslo
+Denmark Copenhagen
