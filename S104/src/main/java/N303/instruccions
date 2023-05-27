@@ -1,0 +1,4 @@
+AssertJ:
+Crea les classes Java i/o els tests que les proven per a demostrar el següent:
+
+Una asserció que indiqui que dos arrays d'enters són idèntics.

@@ -1,0 +1,5 @@
+AssertJ:
+Crea les classes Java i/o els tests que les proven per a demostrar el següent:
+
+Provoca una ArrayIndexOutOfBoundsException en una classe qualsevol.
+Crea una asserció que validi que l'excepció és llançada quan correspon.
