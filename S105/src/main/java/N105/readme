@@ -1,0 +1,13 @@
+Camí:
+C:\Users\Joan Carles\Intellij\Java\S105\src\main\java\N105\
+
+Arxiu a compilar:
+Main.java
+
+Package N105:
+Pas 1: Obrir el cmd des de la carpeta on és l'arxiu java (el seu package)
+Pas 2: compilem "javac Main.java"
+Pas 3: executem l'arxiu java "java nom del package.nom de la classe main"
+
+Amb una petita modificació al Main.java podrem passar el "path" o camí del directori a llegir per paràmetre (args)
+dins el cmd.
