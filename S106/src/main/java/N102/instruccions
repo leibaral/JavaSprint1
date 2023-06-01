@@ -1,0 +1,9 @@
+Crea una classe anomenada Persona amb els atributs nom, cognom i edat.
+Després, crea una classe GenericMethods amb un mètode genèric que accepti 3 arguments de tipus genèric.
+Aquest mètode nomésha d'imprimir per pantalla els arguments que ha rebut.
+Al main(), crida al mètode genèric amb diferents tipus de paràmetres.
+
+Exemple:
+un objecte de la classe Persona, un String i un tipus primitiu.
+
+D'aquesta manera, has comprovat que se li pot passar qualsevol tipus de paràmetre i en qualsevol ordre.
