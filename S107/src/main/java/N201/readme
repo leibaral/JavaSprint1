@@ -1,0 +1,68 @@
+Procés a seguir per a la serialització a JSON d'un objecte (sense llibreries Jackson ó GSON):
+=============================================================================================
+
+Objectiu:
+Tenim una INSTÀNCIA d'OBJECTE i obtindrem una CADENA o STRING en format JSON: claus-valors.
+
+=============================================================================================
+
+
+1)
+Passem la INSTÀNCIA de l'objecte al mètode:
+
+                                    serializeToObjectJSON()
+
+de la classe 'JSONSerializer'.
+
+---------------------------------------------------------------------------------------------
+
+2)
+Fent ús de la classe Reflection, obtenim els CAMPS DE LA CLASSE de l'objecte. De cada camp (atribut)
+tindrem un nom i un valor.
+
+---------------------------------------------------------------------------------------------
+
+3)
+Els n noms i valors de la INSTÀNCIA CONCRETA que hem passat, els guardem en un HashMAP.
+
+---------------------------------------------------------------------------------------------
+
+4)
+Obtenim el resultat buscat: la cadena o STRING en format Json al passar el MAP pel mètode:
+
+                                    mapToJsonString()
+
+================================================================================================
+
+ARA, SI VOLEM, EL GUARDEM EN UN FITXER...
+
+(.txt abans de compilar, en llenguatje que entenem els humans)
+(.ser en format bytecode)
+
+
+
+Annotacions per guardar el fitxer JSON que acabem d'escriure dins un directori concret:
+=============================================================================================
+
+Objectiu:
+Guardar la CADENA o STRING en format JSON en un directori passat per annotació.
+
+=============================================================================================
+
+
+1)
+Creem la annotació "SerializeToJSON" per configurar el comportament de la serialització a JSON
+a nivell de classe. Així, l'annotació es podrà fer servir des d'altres components.
+
+---------------------------------------------------------------------------------------------
+
+2)
+Utilitzem l'annotació a la classe de l'objecte (Persona) per definir en aquest punt ON VOLEM
+que es guardi el fitxer json que crearem.
+
+---------------------------------------------------------------------------------------------
+
+3)
+En el mètode de serialització a JSON, fem servir l'annotació per comprovar que realment HI HA
+una annotació i generar un avís si no és així.
+Tanmateix per a generar el nom i el path de l'arxiu.
