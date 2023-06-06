@@ -1,4 +1,0 @@
-AssertJ:
-Crea les classes Java i/o els tests que les proven per a demostrar el següent:
-
-Crea un objecte Optional buit. Escriu l'asserció correcta per a verificar que efectivament està buit.
