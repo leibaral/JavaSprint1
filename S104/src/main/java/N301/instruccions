@@ -1,0 +1,4 @@
+AssertJ:
+Crea les classes Java i/o els tests que les proven per a demostrar el següent:
+
+Una asserció que demostri que el valor de dos objectes sencers és igual, i una altra que indiqui que no ho és.
